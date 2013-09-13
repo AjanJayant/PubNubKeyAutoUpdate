@@ -68,15 +68,15 @@
 		5EF2D3C717E2900F001DD90B /* PNConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF2D37D17E2900F001DD90B /* PNConnection.m */; };
 		5EF2D3C817E2900F001DD90B /* PNConnectionChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF2D38017E2900F001DD90B /* PNConnectionChannel.m */; };
 		5EF2D3C917E2900F001DD90B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF2D38117E2900F001DD90B /* main.m */; };
-		5EF2D3CA17E2900F001DD90B /* AutoUpdateErrorHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF2D38417E2900F001DD90B /* AutoUpdateErrorHandling.m */; };
-		5EF2D3CB17E2900F001DD90B /* AutoUpdateImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF2D38617E2900F001DD90B /* AutoUpdateImplementation.m */; };
-		5EF2D3CC17E2900F001DD90B /* PubNubKeyUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF2D38817E2900F001DD90B /* PubNubKeyUpdate.m */; };
 		5EF2D3CD17E2900F001DD90B /* PersonalFinance-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5EF2D38917E2900F001DD90B /* PersonalFinance-Info.plist */; };
 		5EF2D3CE17E2900F001DD90B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF2D38C17E2900F001DD90B /* ViewController.m */; };
 		5EF2D3D517E29044001DD90B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5EF2D3D017E29044001DD90B /* InfoPlist.strings */; };
 		5EF2D3D717E29044001DD90B /* PersonalFinanceTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5EF2D3D417E29044001DD90B /* PersonalFinanceTests-Info.plist */; };
 		5EF2D3DE17E290DE001DD90B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5EF2D3D917E290DE001DD90B /* InfoPlist.strings */; };
 		5EF2D3DF17E290DE001DD90B /* PersonalFinanceTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5EF2D3DB17E290DE001DD90B /* PersonalFinanceTests-Info.plist */; };
+		5EF2D3F217E3D115001DD90B /* AutoUpdateErrorHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF2D3ED17E3D115001DD90B /* AutoUpdateErrorHandling.m */; };
+		5EF2D3F317E3D115001DD90B /* AutoUpdateImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF2D3EF17E3D115001DD90B /* AutoUpdateImplementation.m */; };
+		5EF2D3F417E3D115001DD90B /* PubNubKeyUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF2D3F117E3D115001DD90B /* PubNubKeyUpdate.m */; };
 		5EFFB1AB17DA7FA600D62271 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EFFB1AA17DA7FA600D62271 /* UIKit.framework */; };
 		5EFFB1AD17DA7FA600D62271 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EFFB1AC17DA7FA600D62271 /* Foundation.framework */; };
 		5EFFB1AF17DA7FA600D62271 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EFFB1AE17DA7FA600D62271 /* CoreGraphics.framework */; };
@@ -254,12 +254,6 @@
 		5EF2D37F17E2900F001DD90B /* PNConnectionChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNConnectionChannel.h; sourceTree = "<group>"; };
 		5EF2D38017E2900F001DD90B /* PNConnectionChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNConnectionChannel.m; sourceTree = "<group>"; };
 		5EF2D38117E2900F001DD90B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5EF2D38317E2900F001DD90B /* AutoUpdateErrorHandling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoUpdateErrorHandling.h; sourceTree = "<group>"; };
-		5EF2D38417E2900F001DD90B /* AutoUpdateErrorHandling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoUpdateErrorHandling.m; sourceTree = "<group>"; };
-		5EF2D38517E2900F001DD90B /* AutoUpdateImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoUpdateImplementation.h; sourceTree = "<group>"; };
-		5EF2D38617E2900F001DD90B /* AutoUpdateImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoUpdateImplementation.m; sourceTree = "<group>"; };
-		5EF2D38717E2900F001DD90B /* PubNubKeyUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PubNubKeyUpdate.h; sourceTree = "<group>"; };
-		5EF2D38817E2900F001DD90B /* PubNubKeyUpdate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PubNubKeyUpdate.m; sourceTree = "<group>"; };
 		5EF2D38917E2900F001DD90B /* PersonalFinance-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PersonalFinance-Info.plist"; sourceTree = "<group>"; };
 		5EF2D38A17E2900F001DD90B /* PersonalFinance-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PersonalFinance-Prefix.pch"; sourceTree = "<group>"; };
 		5EF2D38B17E2900F001DD90B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -270,6 +264,12 @@
 		5EF2D3DB17E290DE001DD90B /* PersonalFinanceTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PersonalFinanceTests-Info.plist"; sourceTree = "<group>"; };
 		5EF2D3DC17E290DE001DD90B /* PersonalFinanceTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalFinanceTests.h; sourceTree = "<group>"; };
 		5EF2D3DD17E290DE001DD90B /* PersonalFinanceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalFinanceTests.m; sourceTree = "<group>"; };
+		5EF2D3EC17E3D115001DD90B /* AutoUpdateErrorHandling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoUpdateErrorHandling.h; sourceTree = "<group>"; };
+		5EF2D3ED17E3D115001DD90B /* AutoUpdateErrorHandling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoUpdateErrorHandling.m; sourceTree = "<group>"; };
+		5EF2D3EE17E3D115001DD90B /* AutoUpdateImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoUpdateImplementation.h; sourceTree = "<group>"; };
+		5EF2D3EF17E3D115001DD90B /* AutoUpdateImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoUpdateImplementation.m; sourceTree = "<group>"; };
+		5EF2D3F017E3D115001DD90B /* PubNubKeyUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PubNubKeyUpdate.h; sourceTree = "<group>"; };
+		5EF2D3F117E3D115001DD90B /* PubNubKeyUpdate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PubNubKeyUpdate.m; sourceTree = "<group>"; };
 		5EFFB1A717DA7FA600D62271 /* PersonalFinance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalFinance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EFFB1AA17DA7FA600D62271 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5EFFB1AC17DA7FA600D62271 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -311,6 +311,7 @@
 		5EF2D2D417E2900F001DD90B /* PersonalFinance */ = {
 			isa = PBXGroup;
 			children = (
+				5EF2D3EB17E3D115001DD90B /* src */,
 				5EF2D2D517E2900F001DD90B /* AppDelegate.h */,
 				5EF2D2D617E2900F001DD90B /* AppDelegate.m */,
 				5EF2D2D717E2900F001DD90B /* Default-568h@2x.png */,
@@ -320,7 +321,6 @@
 				5EF2D2DC17E2900F001DD90B /* MainStoryboard.storyboard */,
 				5EF2D2DE17E2900F001DD90B /* libs */,
 				5EF2D38117E2900F001DD90B /* main.m */,
-				5EF2D38217E2900F001DD90B /* src */,
 				5EF2D38917E2900F001DD90B /* PersonalFinance-Info.plist */,
 				5EF2D38A17E2900F001DD90B /* PersonalFinance-Prefix.pch */,
 				5EF2D38B17E2900F001DD90B /* ViewController.h */,
@@ -603,20 +603,6 @@
 			path = Transport;
 			sourceTree = "<group>";
 		};
-		5EF2D38217E2900F001DD90B /* src */ = {
-			isa = PBXGroup;
-			children = (
-				5EF2D38317E2900F001DD90B /* AutoUpdateErrorHandling.h */,
-				5EF2D38417E2900F001DD90B /* AutoUpdateErrorHandling.m */,
-				5EF2D38517E2900F001DD90B /* AutoUpdateImplementation.h */,
-				5EF2D38617E2900F001DD90B /* AutoUpdateImplementation.m */,
-				5EF2D38717E2900F001DD90B /* PubNubKeyUpdate.h */,
-				5EF2D38817E2900F001DD90B /* PubNubKeyUpdate.m */,
-			);
-			name = src;
-			path = Models;
-			sourceTree = "<group>";
-		};
 		5EF2D3CF17E29044001DD90B /* PersonalFinance Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -635,6 +621,19 @@
 				5EF2D3DD17E290DE001DD90B /* PersonalFinanceTests.m */,
 			);
 			path = "PersonalFinance Tests";
+			sourceTree = "<group>";
+		};
+		5EF2D3EB17E3D115001DD90B /* src */ = {
+			isa = PBXGroup;
+			children = (
+				5EF2D3EC17E3D115001DD90B /* AutoUpdateErrorHandling.h */,
+				5EF2D3ED17E3D115001DD90B /* AutoUpdateErrorHandling.m */,
+				5EF2D3EE17E3D115001DD90B /* AutoUpdateImplementation.h */,
+				5EF2D3EF17E3D115001DD90B /* AutoUpdateImplementation.m */,
+				5EF2D3F017E3D115001DD90B /* PubNubKeyUpdate.h */,
+				5EF2D3F117E3D115001DD90B /* PubNubKeyUpdate.m */,
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 		5EFFB19E17DA7FA500D62271 = {
@@ -841,10 +840,10 @@
 				5EF2D3C717E2900F001DD90B /* PNConnection.m in Sources */,
 				5EF2D3C817E2900F001DD90B /* PNConnectionChannel.m in Sources */,
 				5EF2D3C917E2900F001DD90B /* main.m in Sources */,
-				5EF2D3CA17E2900F001DD90B /* AutoUpdateErrorHandling.m in Sources */,
-				5EF2D3CB17E2900F001DD90B /* AutoUpdateImplementation.m in Sources */,
-				5EF2D3CC17E2900F001DD90B /* PubNubKeyUpdate.m in Sources */,
 				5EF2D3CE17E2900F001DD90B /* ViewController.m in Sources */,
+				5EF2D3F217E3D115001DD90B /* AutoUpdateErrorHandling.m in Sources */,
+				5EF2D3F317E3D115001DD90B /* AutoUpdateImplementation.m in Sources */,
+				5EF2D3F417E3D115001DD90B /* PubNubKeyUpdate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
